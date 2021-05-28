@@ -5,3 +5,31 @@
     font-size: 100%;
   }
 
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font: 15px Poppins;
+    line-height: 1.5em;
+    background-color: #9CAAB7;
+  }
+
+
+  .background {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+  }
+
+  .text {
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+  }
