@@ -13,6 +13,7 @@
     font: 15px Poppins;
     line-height: 1.5em;
     background-color: #9CAAB7;
+
   }
 
 
@@ -23,13 +24,54 @@
 
   .profile-picture {
     display: block;
+    max-width: 220px;
     margin-left: auto;
     margin-right: auto;
     margin-top: -110px;
   }
 
   .text {
-    max-width: 40%;
+    max-width: 40vw;
     margin: 0 auto;
     text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .content {
+    max-width: 1440px;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-family: 'Rhodium Libre', serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #6F3F30;
+  }
+
+  h2 {
+    font-family: 'Rhodium Libre', serif;
+    font-size: 24px;
+    color: #6F3F30;
+  }
+
+  p {
+    font-family: 'Rhodium Libre', serif;
+    font-size: 18px;
+    color: #6F3F30;
+    line-height: 1.5em;
   }
