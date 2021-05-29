@@ -30,6 +30,12 @@
     margin-top: -110px;
   }
 
+  .profile-picture:hover {
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(50%);
+  }
+
   .text {
     max-width: 40vw;
     margin: 0 auto;
@@ -53,7 +59,7 @@
     justify-content: center;
     align-items: center;
     max-width: 200px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   h1 {
@@ -61,12 +67,15 @@
     font-size: 36px;
     text-transform: uppercase;
     color: #6F3F30;
+    margin-top: 50px;
+    line-height: 1.5em;
   }
 
   h2 {
     font-family: 'Rhodium Libre', serif;
     font-size: 24px;
     color: #6F3F30;
+    margin-top: 7px;
   }
 
   p {
@@ -74,4 +83,9 @@
     font-size: 18px;
     color: #6F3F30;
     line-height: 1.5em;
+    margin-top: 20px;
+  }
+
+  a:hover {
+    filter: grayscale(50%);
   }
